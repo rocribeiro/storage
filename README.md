@@ -56,3 +56,7 @@ A API oferece os seguintes endpoints para gerenciamento de produtos:
     - DELETE /products/{id}: Exclui um produto.
     - POST /products/{id}/increase: Aumenta a quantidade de estoque de um produto.
     - POST /products/{id}/decrease: Diminui a quantidade de estoque de um produto.
+
+Colection Postman
+
+https://www.postman.com/rocribeiro/workspace/product-storage/collection/4834111-031a2106-1d8c-4aaa-adf1-14f38cd42931?action=share&creator=4834111
