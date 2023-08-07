@@ -33,7 +33,7 @@ mvn clean package
 docker-compose up
 ```
 
-    O aplicativo Spring Boot estará disponível em http://localhost:8080. Você pode acessar a API e usar as funcionalidades do projeto.
+O aplicativo Spring Boot estará disponível em http://localhost:8080. Você pode acessar a API e usar as funcionalidades do projeto.
 
 Configurações
 
