@@ -11,6 +11,10 @@ Certifique-se de ter as seguintes ferramentas instaladas em seu sistema:
 - Docker
 - Docker Compose
 
+## Script SQL
+```bash
+https://github.com/rocribeiro/storage/blob/main/mysql/init.sql
+```
 ## Iniciando o Projeto
 
 1. Clone este repositório para o seu ambiente local:
