@@ -9,6 +9,8 @@ import org.springframework.stereotype.Service;
 import com.product.storage.repository.ProductRepository;
 import com.product.storage.model.Product;
 
+import javax.transaction.Transactional;
+
 
 @Service
 public class ProductService {
@@ -28,9 +30,12 @@ public class ProductService {
 
         return productOptional.get();
     }
+    @Transactional
     public Product saveProduct(Product product){
+
         return productRepository.save(product);
     }
+    @Transactional
     public void deleteProduct(Long id){
         productRepository.deleteById(id);;
     }

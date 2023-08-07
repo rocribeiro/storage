@@ -17,8 +17,10 @@ public class Product {
     private LocalDateTime lastUpdateDate;
 
     @ManyToOne
+    @JoinColumn(name = "supplier_id")
     private Supplier supplier;
-    
+
+
     public Product(){
 
     }
