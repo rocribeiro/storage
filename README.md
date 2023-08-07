@@ -31,7 +31,7 @@ mvn clean package
 ```bash
 docker-compose up mysql
 ```
-5 - (Inportante o servico mysql esteja up)Execute o Docker Compose para iniciar os serviço app storage: 
+5 - (:warning: Importante o servico mysql esteja up)Execute o Docker Compose para iniciar os serviço app storage: 
 ```bash
 docker-compose up app
 ```
