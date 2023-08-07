@@ -21,7 +21,7 @@ git clone https://github.com/seu-usuario/storage.git
 
 ## 1 - Navegue até o diretório do projeto: 
 ```bash
-    cd storage
+cd storage
 ```
 3 - (Opcional, mas recomendado) Execute o Maven para compilar e empacotar a aplicação:
 ```bash
@@ -30,7 +30,7 @@ mvn clean package
 
 2 - Execute o Docker Compose para iniciar os serviços do aplicativo e do banco de dados: 
 ```bash
-    docker-compose up
+docker-compose up
 ```
 
     O aplicativo Spring Boot estará disponível em http://localhost:8080. Você pode acessar a API e usar as funcionalidades do projeto.
